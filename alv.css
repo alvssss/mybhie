@@ -1,0 +1,74 @@
+label{
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+form{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input[type="text"], 
+input[type="email"],
+input[type="password"], select, input[types="date"],input[type=number]{
+    padding: 20px;
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    
+}
+fieldset{
+    width: 100%;
+    padding-left: 30px;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+
+input[type="submit"], 
+input[type="reset"]{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    background: green;
+    color: black;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+legend{
+    font-size: 16pt;
+    color: rgb(83, 83, 85);
+    font-weight: bold;
+}
+textarea{
+    min-height: 100px;
+    resize: vertical;
+}
+.radio_button{
+    display: inline;
+    color: black;
+    font-weight: normal;
+    margin-right: 15px;
+}
+.check_button{
+    display: inline;
+    color: black;
+    font-weight: normal;
+    margin-right: 15px;
+}
+.age{
+    width: 50%;
+    padding: 10px;
+}
+.date{
+    width: 50%;
+    padding: 10px;
+}
